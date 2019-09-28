@@ -1,10 +1,9 @@
-import java.io.*;
 import java.util.*;
 
-    public class ClassVsInstance {
+    public class Day4ClassVsInstance {
         private int age;
 
-        public ClassVsInstance(int initialAge) {
+        public Day4ClassVsInstance(int initialAge) {
             // Add some more code to run some checks on initialAge
             if (initialAge<0) {
                 System.out.println("Age is not valid, setting age to 0.");
@@ -33,7 +32,7 @@ import java.util.*;
             int T = sc.nextInt();
             for (int i = 0; i < T; i++) {
                 int age = sc.nextInt();
-                ClassVsInstance p = new ClassVsInstance(age);
+                Day4ClassVsInstance p = new Day4ClassVsInstance(age);
                 p.amIOld();
                 for (int j = 0; j < 3; j++){
                     p.yearPasses();

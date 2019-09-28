@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DataTypes {
+public class Day1DataTypes {
 
        public static void main(String[] args) {
             int i = 4;
